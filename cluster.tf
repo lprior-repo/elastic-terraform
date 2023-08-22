@@ -25,7 +25,5 @@ resource "ec_deployment" "example_minimal" {
 
   kibana = {}
 
-  enterprise_search = {}
-
   integrations_server = {}
 }
