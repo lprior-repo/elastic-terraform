@@ -44,11 +44,4 @@ func main() {
 		return
 	}
 
-	// Run Terraform Destroy
-	err = runTerraformCommand("terraform", "destroy", "-auto-approve")
-	if err != nil {
-		fmt.Println("Error running terraform destroy:", err)
-		return
-	}
-
 }
